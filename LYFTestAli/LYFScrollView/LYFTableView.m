@@ -32,6 +32,7 @@ static NSString *tableViewCell = @"UITableViewCell";
 -(void)setRowNumber:(NSInteger)rowNumber {
     _rowNumber = rowNumber;
     
+    // 重置高度为：行数（rowNumber） *  行高（kRowHeight）
     self.lyf_height = rowNumber * kRowHeight;
     
     [self reloadData];

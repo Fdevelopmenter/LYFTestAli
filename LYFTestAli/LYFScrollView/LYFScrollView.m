@@ -31,12 +31,13 @@
         
         [self headerView];
         
-        // 设定行数
+        // 设定tableView的行数
         self.tableView.rowNumber = 20;
-        // tableViewCell的高度是50
-        self.contentSize = CGSizeMake(0, kHeaderHeight + self.tableView.rowNumber * 50.f);
-
+        // 设定自身的偏移量，tableViewCell的高度是50
+        self.contentSize = CGSizeMake(0, kHeaderHeight + self.tableView.rowNumber * 50.f + 64.f);
+        
         __weak __typeof(self)weakSelf = self;
+        // 下拉刷新
         self.tableView.mj_header = [MJRefreshNormalHeader headerWithRefreshingBlock:^{
             [weakSelf loadMoreData];
         }];
@@ -50,10 +51,13 @@
     CGFloat contentOffsetY = scrollView.contentOffset.y;
     
     if (contentOffsetY < -kHeaderHeight / 2) {
+        // 当结束滑动的偏移量小于-kHeaderHeight / 2，就开始刷新tableView
         [self.tableView.mj_header beginRefreshing];
     } else if (contentOffsetY > 0 && contentOffsetY < kHeaderHeight / 2) {
+        // 当偏移量大于0并且小于kHeaderHeight / 2，就把偏移量设置在CGPointMake(0, 0)
         [self setContentOffset:CGPointMake(0, 0) animated:YES];
     } else if (contentOffsetY > kHeaderHeight / 2 && contentOffsetY < kHeaderHeight) {
+        // 当偏移量大于kHeaderHeight / 2并且小于kHeaderHeight，就把偏移量设置在CGPointMake(0, kHeaderHeight)
         [self setContentOffset:CGPointMake(0, kHeaderHeight) animated:YES];
     }
 }
@@ -62,6 +66,7 @@
     // 偏移量
     CGFloat contentOffsetY = scrollView.contentOffset.y;
     
+    // 将偏移量放入block
     if (self.contentOffsetAction) {
         self.contentOffsetAction(contentOffsetY);
     }
