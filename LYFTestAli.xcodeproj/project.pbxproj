@@ -18,7 +18,6 @@
 		4BD3873F212288880088BDF8 /* LYFScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD3873E212288880088BDF8 /* LYFScrollView.m */; };
 		4BD38742212288A60088BDF8 /* LYFHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD38741212288A60088BDF8 /* LYFHeaderView.m */; };
 		4BD387452122ABFE0088BDF8 /* LYFTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD387442122ABFE0088BDF8 /* LYFTableView.m */; };
-		4BD387782122D0080088BDF8 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 4BD387472122D0080088BDF8 /* LICENSE */; };
 		4BD387792122D0080088BDF8 /* UIScrollView+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD387492122D0080088BDF8 /* UIScrollView+MJRefresh.m */; };
 		4BD3877A2122D0080088BDF8 /* MJRefreshConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD3874A2122D0080088BDF8 /* MJRefreshConst.m */; };
 		4BD3877B2122D0080088BDF8 /* MJRefresh.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4BD3874E2122D0080088BDF8 /* MJRefresh.bundle */; };
@@ -39,7 +38,6 @@
 		4BD3878A2122D0080088BDF8 /* MJRefreshBackFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD387712122D0080088BDF8 /* MJRefreshBackFooter.m */; };
 		4BD3878B2122D0080088BDF8 /* MJRefreshAutoFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD387722122D0080088BDF8 /* MJRefreshAutoFooter.m */; };
 		4BD3878C2122D0080088BDF8 /* MJRefreshComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD387742122D0080088BDF8 /* MJRefreshComponent.m */; };
-		4BD3878D2122D0080088BDF8 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 4BD387772122D0080088BDF8 /* README.md */; };
 		4BD387912122DB790088BDF8 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD387902122DB790088BDF8 /* UIView+Frame.m */; };
 		4BD387952122E2460088BDF8 /* LYFButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD387942122E2460088BDF8 /* LYFButton.m */; };
 		4BD387982122EC870088BDF8 /* LYFNavigationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD387972122EC870088BDF8 /* LYFNavigationView.m */; };
@@ -85,7 +83,6 @@
 		4BD38741212288A60088BDF8 /* LYFHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYFHeaderView.m; sourceTree = "<group>"; };
 		4BD387432122ABFE0088BDF8 /* LYFTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYFTableView.h; sourceTree = "<group>"; };
 		4BD387442122ABFE0088BDF8 /* LYFTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYFTableView.m; sourceTree = "<group>"; };
-		4BD387472122D0080088BDF8 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		4BD387492122D0080088BDF8 /* UIScrollView+MJRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+MJRefresh.m"; sourceTree = "<group>"; };
 		4BD3874A2122D0080088BDF8 /* MJRefreshConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshConst.m; sourceTree = "<group>"; };
 		4BD3874B2122D0080088BDF8 /* UIScrollView+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+MJExtension.h"; sourceTree = "<group>"; };
@@ -126,7 +123,6 @@
 		4BD387742122D0080088BDF8 /* MJRefreshComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshComponent.m; sourceTree = "<group>"; };
 		4BD387752122D0080088BDF8 /* MJRefreshFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshFooter.h; sourceTree = "<group>"; };
 		4BD387762122D0080088BDF8 /* MJRefreshBackFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshBackFooter.h; sourceTree = "<group>"; };
-		4BD387772122D0080088BDF8 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4BD3878F2122DB790088BDF8 /* UIView+Frame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
 		4BD387902122DB790088BDF8 /* UIView+Frame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
 		4BD387932122E2460088BDF8 /* LYFButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYFButton.h; sourceTree = "<group>"; };
@@ -232,9 +228,7 @@
 		4BD387462122D0080088BDF8 /* MJRefresh */ = {
 			isa = PBXGroup;
 			children = (
-				4BD387472122D0080088BDF8 /* LICENSE */,
 				4BD387482122D0080088BDF8 /* MJRefresh */,
-				4BD387772122D0080088BDF8 /* README.md */,
 			);
 			path = MJRefresh;
 			sourceTree = "<group>";
@@ -460,10 +454,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4BD3878D2122D0080088BDF8 /* README.md in Resources */,
 				4BD38717212197090088BDF8 /* LaunchScreen.storyboard in Resources */,
 				4BD38714212197090088BDF8 /* Assets.xcassets in Resources */,
-				4BD387782122D0080088BDF8 /* LICENSE in Resources */,
 				4BD3877B2122D0080088BDF8 /* MJRefresh.bundle in Resources */,
 				4BD38712212197080088BDF8 /* Main.storyboard in Resources */,
 			);
